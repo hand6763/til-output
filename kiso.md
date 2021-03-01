@@ -49,11 +49,22 @@ void main(){
 | %c | 文字。ASCIIコードで表示された文字列が表示 | 'A','b','8' |
 | %s | 文字列。文字列をそのまま表示 | "ABC","佐藤俊夫" |
 
-|header1|header2|header3|
-|:--|:-:|--:|
-|hoge|fuga|piyo|
-|hoge|^|^|
-|hoge|fuga|^|
+<table>
+<tr>
+  <th>見出し1</th>
+  <th>見出し2</th>
+  <th>見出し3</th>
+</tr>
+<tr>
+  <td>内容1-1</td>
+  <td>内容1-2</td>
+  <td>内容1-3</td>
+</tr>
+<tr>
+  <td colspan=2>内容2-1</td>
+  <td>内容2-3</td>
+</tr>
+</table>
 
 ## 型と変数
 | 型 | 内容 |
