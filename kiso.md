@@ -49,6 +49,12 @@ void main(){
 | %c | 文字。ASCIIコードで表示された文字列が表示 | 'A','b','8' |
 | %s | 文字列。文字列をそのまま表示 | "ABC","佐藤俊夫" |
 
+|header1|header2|header3|
+|:--|:-:|--:|
+|hoge|fuga|piyo|
+|hoge|^|^|
+|hoge|fuga|^|
+
 ## 型と変数
 | 型 | 内容 |
 ----|---- 
