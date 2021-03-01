@@ -58,11 +58,10 @@ void main(){
 <tr>
   <td>内容1-1</td>
   <td>内容1-2</td>
-  <td>内容1-3</td>
+  <td rowspan=2>内容1-3</td>
 </tr>
 <tr>
   <td colspan=2>内容2-1</td>
-  <td>内容2-3</td>
 </tr>
 </table>
 
