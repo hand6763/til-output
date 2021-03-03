@@ -91,8 +91,8 @@ C言語では16進数の数を0x～という形式で表現します。また、
 | unsigned | 2バイトまた4バイトの符号なし整数の値を記憶できる（2バイトなら0～2の16乗-1、4バイトなら0～2の32乗-1 |
 | unsigned long | 4バイトの符号なし整数（0～2の32乗-1）の値を記憶できる |
 | unsigned short | 2バイトの符号なし整数（0～2の16乗-1）の値を記憶できる |
-| float | 単精度浮動小数点型 |
-| double | 倍精度浮動小数点型 |
+| float | ４バイトの単精度浮動小数点型 |
+| double | ８バイトの倍精度浮動小数点型 |
 
 
 ## コメント
@@ -102,4 +102,15 @@ C言語では16進数の数を0x～という形式で表現します。また、
 複数行にわたってコメントをつけることが出来る。 |
 | // | 一行にコメントをつけることが出来る。 |
 
-## 条件分岐
+## 予約語
+|auto|double|int|struct|
+|break|else|long|switch|
+|case|enum|register|typedef|
+|char|extern|return|union|
+|const|float|short|unsigned|
+|continue|for|signed|void|
+|default|goto|sizeof|volatile|
+|do|if|static|while|
+
+
+
